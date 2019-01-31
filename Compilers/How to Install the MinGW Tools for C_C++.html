@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0071)https://www.rose-hulman.edu/class/csse/resources/MinGW/installation.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="gr__rose-hulman_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title> How to Install the MinGW Tools for C/C++ </title> 
+	<link rel="stylesheet" href="./How to Install the MinGW Tools for C_C++_files/install.css" type="text/css">
+	<style type="text/css">
+.style1 {
+				text-decoration: underline;
+}
+.style3 {
+				font-family: Tahoma;
+				color: #FF0000;
+}
+.style4 {
+				font-style: normal;
+}
+.style5 {
+				font-weight: normal;
+}
+.style6 {
+				color: #000000;
+}
+</style>
+</head>
+<body data-gr-c-s-loaded="true">
+<h2> How to Install the MinGW Tools for C/C++ </h2> <h3> Rose-Hulman Institute of Technology – 
+	<br>
+	Computer Science &amp; Software Engineering </h3> <h4> Overview </h4> 
+<p>
+	Follow these directions to the MinGW tools for developing code in C/C++. ( 
+	All RHIT laptops came with MinGW installed)</p>
+<h4> Install the MinGW Tools for C/C++ </h4> 
+<ol class="steps">
+	<li>
+		Log in to your regular user account.
+	</li>
+	<li>
+		Download this
+		<a href="http://www.rose-hulman.edu/class/csse/binaries/MinGW/mingw-get-inst-20110530.exe">
+		MinGW folder</a> and run it.&nbsp; Your browser may warn that <em>"This 
+		file is not commonly downloaded and may harm your computer"</em> , but 
+		run it anyway. (In one dialog box, selecting 'additional options' 
+		allowed it to run. This installation will download various files from 
+		the web. </li>
+	<li class="style3">
+		<strong>Accept the default installation folder </strong> 
+		<strong class="style5">C:\MinGW</strong><strong>. Do </strong> 
+		<strong class="style5">
+		<em class="style4">NOT</em></strong><strong> 
+		attempt to place in </strong> <span class="style1"><strong>C:\Program Files\MinGW</strong></span><em class="style4"><strong>.</strong></em><strong> </strong>
+		<span class="style6">(location cannot 
+		have spaces)</span></li>
+	<li>At the <em>Select Component</em> dialog, check the <strong><em>MSYS 
+	Basic System.</em></strong></li>
+	<li>
+		Add the <strong>C:\MinGW\bin folder</strong> to your Windows Path variable. To do this: 
+		<ol type="a">
+			<li>
+				Right-click on <em>Computer</em> in the Start Menu and select
+				<em>Properties.</em> 
+			</li>
+				<img alt="" src="./How to Install the MinGW Tools for C_C++_files/FindingComputer.PNG" width="363" height="364">
+			<li>
+				Click on "Advanced System Settings", choose the <em>Advanced
+				</em>tab, then click <em>Environment Variables.</em> 
+			</li>
+			
+				<img alt="" src="./How to Install the MinGW Tools for C_C++_files/AdvancedTab.PNG" width="323" height="338"><img alt="" src="./How to Install the MinGW Tools for C_C++_files/EnvironmentVars.PNG" width="282" height="339">
+			<li>
+				Under <em>System Variables</em>, scroll down and select <em>Path</em>, then click Edit. 
+			</li>
+				<li>
+				<strong><em>Carefully</em></strong> (use the right-arrow or End keys) go all the way to the right of the <b>Variable value</b> field. 
+				<span class="style3"><strong>Be sure not to delete anything! 
+				Deleting here breaks things!</strong></span></li>
+			<li>
+				<p>
+					Add to the end of that field (include the semicolon) 
+					</p>
+				<p class="indented">
+					<strong><code>;C:\MinGW\bin</code></strong> 
+				</p>
+				<img alt="" src="./How to Install the MinGW Tools for C_C++_files/editSysVars.PNG" width="401" height="186"></li>
+			<li>
+				Click OK three times to exit. 
+			</li>
+		</ol>
+	</li>
+	<li>
+		Next, verify that the MinGW install was successful.  Here’s how:
+		<ol>
+			<li>
+				Click Start and type<em> <strong>cmd</strong></em> in the search field, then press Enter.<em> </em>
+			</li>
+			<li>
+				In the window that appears, enter <kbd>gcc</kbd> and press the Enter key 
+				again.
+			</li>
+			<li>
+				You should get a response <kbd>gcc: no input files</kbd>.  This means that Windows could find the gcc program, which is what we want.  If you get any other response, then verify that you set the path correctly in step 
+				5e above.  <span class="note">(For the curious, gcc stands for Gnu C Compiler.)</span> </li>
+			
+				<img align="top" src="./How to Install the MinGW Tools for C_C++_files/CommandPrompt.PNG" width="829" height="434">
+		</ol>
+	</li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
