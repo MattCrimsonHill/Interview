@@ -1,0 +1,94 @@
+body {
+   color: #111111;
+   font-size: 85%;
+   font-family:tahoma,arial;
+}
+
+a.small {
+	font-size:10px;
+	font-weight:normal;
+	font-family:tahoma,arial;
+}
+
+ul li { 
+   margin-top: 0.5ex;
+}
+
+ol>li {
+   margin-top: 1.5ex;
+}
+
+ol ol>li {
+	list-style-type: lower-latin;
+	list-style-position: default;
+}
+
+ol ol ol>li {
+	list-style-type: lower-roman;
+	list-style-position: default;
+}
+
+h2 {   
+   text-align: center;
+   font-size: 150%;
+   color: white;
+   background-color: #660000;
+   border-top: gray 3px solid;
+   border-bottom: gray 3px solid;
+   padding: 1ex;
+}
+
+h3 {
+   text-align: center;
+   font-size: 150%;
+}
+
+h4 {
+   font-size: 135%;
+   padding-bottom: 0.25ex;
+   border-bottom: #111111 2px solid;
+}
+
+h5 {   
+   font-size: 120%;
+   font-style: italic;
+   font-weight: bold;
+   border-bottom: #333333 1px solid;
+   margin-bottom: 1ex;
+}
+
+h6 {   
+   font-size: 100%;
+   font-weight: bold;
+   margin-top: 1ex;
+   margin-bottom: 0ex;
+}
+
+pre {
+   margin-top: 0.5ex;
+   margin-bottom: 0.5ex;
+}
+div.sample {   
+   border: #333333 2px solid;
+   padding: 0.5ex 2ex 0.5ex 2ex;
+   margin: 1ex 6ex 1ex 6ex;
+}
+
+td {
+   border: #333333 2px solid;
+   padding: 1ex;
+}
+
+.indented {
+	margin-left: 2em;
+}
+
+.note {
+	color: gray;
+}
+
+div.wrapLeft {
+	background-color: #FFFFFF;
+	float: left;
+	padding-right: 2em;
+}
