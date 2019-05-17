@@ -18,7 +18,7 @@ int main(){
 		}
 		d = (g*n)-x;
 		A = n - d;
-		cout<<"Ans"<<A<<"\n";
+		cout<<A<<"\n";
 		x = n = m = s = g = d = A = 0;
 	}
 }
